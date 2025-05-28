@@ -1,0 +1,54 @@
+# OpenSTA-specific ignore rules
+
+OpenSTA/*.rej
+OpenSTA/*.orig
+OpenSTA/TAGS
+OpenSTA/*~
+OpenSTA/\#*#
+OpenSTA/.#*
+OpenSTA/.~lock.*\.*#
+OpenSTA/.DS_Store
+OpenSTA/.vscode
+OpenSTA/.idea
+OpenSTA/Makefile
+OpenSTA/gmon.out
+
+OpenSTA/cmake-build-debug/
+OpenSTA/build/
+OpenSTA/pvt/
+
+OpenSTA/include/sta/StaConfig.hh
+
+OpenSTA/app/sta
+OpenSTA/app/libOpenSTA.*
+OpenSTA/app/sta.exe
+OpenSTA/app/sta.dSYM
+
+# CMake build system junk
+OpenSTA/CMakeCache.txt
+OpenSTA/CMakeFiles/
+OpenSTA/CMakeScripts/
+OpenSTA/CMakeTmp/
+OpenSTA/cmake_install.cmake
+OpenSTA/install_manifest.txt
+
+# CMake-generated project files
+OpenSTA/compile_commands.json
+
+# Temporary files & clutter
+OpenSTA/*.cmake
+
+# iverilog turd
+OpenSTA/examples/gcd_tb
+
+OpenSTA/doc/._Sta.docx
+OpenSTA/doc/messages.txt
+
+OpenSTA/test/results/
+OpenSTA/test/b3v3_1check.log
+
+# Generated parser files
+OpenSTA/*Lex.cc
+OpenSTA/*Parse.cc
+OpenSTA/*Parse.hh
+OpenSTA/*Location.hh
